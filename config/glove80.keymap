@@ -122,12 +122,12 @@
 
         default_layer {
             bindings = <
-&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                                                                     &kp F6  &kp F7          &kp F8         &kp F9    &kp F10
-&kp EQUAL       &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                                                                  &kp N6  &kp N7  &kp N8          &kp N9         &kp N0    &kp MINUS
-&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                                                                   &kp Y   &kp U   &kp I           &kp O          &kp P     &kp LBKT
-&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                                                                   &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp SEMI  &kp SQT
-&kp GRAVE       &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LGUI           &none                               &none    &none  &none                                &kp RGUI            &kp N   &kp M   &kp COMMA       &kp DOT        &kp FSLH  &kp PG_UP
-&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &hrm_l LSHFT BSPC  &kp_and_layer LOWER_LEFT_PRESS DEL  &none    &none  &kp_and_layer LOWER_RIGHT_PRESS RET  &hrm_r RSHFT SPACE          &kp UP  &kp DOWN        &none          &mo 2     &kp PG_DN
+&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                                                                     &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
+&kp EQUAL       &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                                                                  &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
+&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                                                                   &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
+&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                                                                   &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LGUI           &none                               &none    &none  &none                                &kp RGUI            &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
+&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &hrm_l LSHFT BSPC  &kp_and_layer LOWER_LEFT_PRESS DEL  &none    &none  &kp_and_layer LOWER_RIGHT_PRESS RET  &hrm_r RSHFT SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
             >;
         };
 
