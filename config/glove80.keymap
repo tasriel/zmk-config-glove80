@@ -157,7 +157,7 @@
             bindings = <
 &none  &none  &none  &none  &none                                                            &none             &none               &none         &none         &none
 &none  &none  &none  &none  &none  &none                                              &none  &none             &none               &none         &none         &none
-&none  &none  &none  &none  &none  &none                                              &none  &kp DE_BACKSLASH  &kp DE_GRAVE        &kp DE_ACUTE  &kp PLUS      &kp HOME
+&none  &none  &none  &none  &none  &none                                              &none  &kp DE_BACKSLASH  &kp DE_GRAVE        &kp DE_ACUTE  &kp DE_PLUS   &kp HOME
 &none  &none  &none  &none  &none  &none                                              &none  &kp DE_SLASH      &kp DE_STAR         &kp DE_EQUAL  &kp DE_HASH   &kp END
 &none  &none  &none  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp DE_PIPE       &kp DE_EXCLAMATION  &kp DE_QMARK  &kp DE_TILDE  &kp INSERT
 &none  &none  &none  &none  &none         &none  &none  &none    &none  &none  &none         &kp DE_AMPERSAND  &none               &none         &none         &none
