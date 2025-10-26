@@ -23,7 +23,7 @@ layers:
   - '9'
   - '0'
   - SZ
-  - TAB
+  - ↹
   - Q
   - W
   - E
@@ -35,47 +35,47 @@ layers:
   - O
   - P
   - U UMLAUT
-  - ESC
+  - Esc
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
+  - {t: S, h: Alt}
+  - {t: D, h: Ctrl}
   - F
   - G
   - H
   - J
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: AltGr}
   - O UMLAUT
   - A UMLAUT
-  - ^
+  - CARET
   - Z
   - X
   - C
   - V
   - B
-  - LGUI
+  - Gui
   - CAPSLOCK
   - ''
   - ''
   - ''
-  - RGUI
+  - Gui
   - N
   - M
-  - ','
-  - .
-  - '-'
+  - COMMA
+  - DOT
+  - MINUS
   - PG UP
   - {t: '&rgb_ug_status_macro', h: magic}
   - lower_left_press
   - ''
   - LEFT
   - RIGHT
-  - {t: BSPC, h: LSHFT}
-  - {t: DEL, h: lower_left_press}
+  - {t: ⌫, h: Shift}
+  - {t: ⌦, h: lower_left_press}
   - ''
   - ''
-  - {t: RET, h: lower_right_press}
-  - {t: SPACE, h: RSHFT}
+  - {t: ⏎, h: lower_right_press}
+  - {t: ␣, h: Shift}
   - UP
   - DOWN
   - ''
@@ -186,10 +186,10 @@ layers:
   - KP MULTIPLY
   - PRINTSCREEN
   - DEGREE
-  - '"'
-  - '{'
-  - '}'
-  - ''''
+  - DOUBLE QUOTES
+  - LEFT BRACE
+  - RIGHT BRACE
+  - SINGLE QUOTE
   - ''
   - ''
   - KP 7
@@ -198,10 +198,10 @@ layers:
   - KP MINUS
   - SCROLLLOCK
   - ''
-  - _
-  - (
-  - )
-  - $
+  - UNDERSCORE
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - DOLLAR
   - ''
   - AL CALCULATOR
   - KP 4
@@ -210,14 +210,14 @@ layers:
   - KP PLUS
   - ''
   - ''
-  - <
-  - '['
-  - ']'
-  - '>'
+  - LESS THAN
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - GREATER THAN
   - ''
-  - VOL DN
-  - VOL UP
-  - PP
+  - Vol Down
+  - Vol Up
+  - Play Pause
   - ''
   - ''
   - ''
@@ -231,7 +231,7 @@ layers:
   - ''
   - ''
   - ''
-  - '%'
+  - PERCENT
   - MUTE
   - PREV
   - NEXT
@@ -273,10 +273,10 @@ layers:
   - ''
   - ''
   - ''
-  - \
-  - '`'
+  - BACKSLASH
+  - GRAVE
   - ACUTE
-  - +
+  - PLUS
   - HOME
   - ''
   - ''
@@ -285,10 +285,10 @@ layers:
   - ''
   - ''
   - ''
-  - /
-  - '*'
-  - '='
-  - '#'
+  - SLASH
+  - STAR
+  - EQUAL
+  - HASH
   - END
   - ''
   - ''
@@ -303,10 +303,10 @@ layers:
   - ''
   - ''
   - ''
-  - '|'
-  - '!'
-  - '?'
-  - '~'
+  - PIPE
+  - EXCLAMATION
+  - QMARK
+  - TILDE
   - INSERT
   - ''
   - {type: held}
@@ -319,7 +319,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&'
+  - AMPERSAND
   - ''
   - ''
   - ''
