@@ -1,5 +1,10 @@
 parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
+  raw_binding_map:
+    # Bluetooth
+    "&bt_0": $$mdi:bluetooth-connect$$ test
+    "&bt_1": $$mdi:bluetooth-connect$$
+
   zmk_keycode_map:
     # custom mappings
 
@@ -46,8 +51,6 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
-    "&bt_0": $$mdi:bluetooth-connect$$ test
-    "&bt_1": $$mdi:bluetooth-connect$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
