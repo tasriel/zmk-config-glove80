@@ -46,8 +46,8 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
-    bt_0: $$mdi:bluetooth-connect$$ test
-    bt_1: $$mdi:bluetooth-connect$$
+    "&bt_0": $$mdi:bluetooth-connect$$ test
+    "&bt_1": $$mdi:bluetooth-connect$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
@@ -59,6 +59,7 @@ parse_config:
     U_UMLAUT: 'Ü'
     O_UMLAUT: 'Ö'
     A_UMLAUT: 'Ä'
+    SZ: 'ß'
 
     # defaults
     AMPERSAND: '&'
