@@ -1,2 +1,5 @@
+parse_config:
+  zmk_remove_keycode_prefix: ["DE_"]
+
 draw_config:
   dark_mode: auto
