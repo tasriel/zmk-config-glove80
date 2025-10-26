@@ -22,7 +22,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DE SZ
+  - SZ
   - TAB
   - Q
   - W
@@ -34,7 +34,7 @@ layers:
   - I
   - O
   - P
-  - DE U UMLAUT
+  - U UMLAUT
   - ESC
   - A
   - {t: S, h: LALT}
@@ -45,9 +45,9 @@ layers:
   - J
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - DE O UMLAUT
-  - DE A UMLAUT
-  - DE CARET
+  - O UMLAUT
+  - A UMLAUT
+  - ^
   - Z
   - X
   - C
@@ -63,7 +63,7 @@ layers:
   - M
   - ','
   - .
-  - DE MINUS
+  - '-'
   - PG UP
   - {t: '&rgb_ug_status_macro', h: magic}
   - lower_left_press
@@ -185,11 +185,11 @@ layers:
   - KP SLASH
   - KP MULTIPLY
   - PRINTSCREEN
-  - DE DEGREE
-  - DE DOUBLE QUOTES
-  - DE LEFT BRACE
-  - DE RIGHT BRACE
-  - DE SINGLE QUOTE
+  - DEGREE
+  - '"'
+  - '{'
+  - '}'
+  - ''''
   - ''
   - ''
   - KP 7
@@ -198,10 +198,10 @@ layers:
   - KP MINUS
   - SCROLLLOCK
   - ''
-  - DE UNDERSCORE
-  - DE LEFT PARENTHESIS
-  - DE RIGHT PARENTHESIS
-  - DE DOLLAR
+  - _
+  - (
+  - )
+  - $
   - ''
   - AL CALCULATOR
   - KP 4
@@ -210,10 +210,10 @@ layers:
   - KP PLUS
   - ''
   - ''
-  - DE LESS THAN
-  - DE LEFT BRACKET
-  - DE RIGHT BRACKET
-  - DE GREATER THAN
+  - <
+  - '['
+  - ']'
+  - '>'
   - ''
   - VOL DN
   - VOL UP
@@ -231,7 +231,7 @@ layers:
   - ''
   - ''
   - ''
-  - DE PERCENT
+  - '%'
   - MUTE
   - PREV
   - NEXT
@@ -273,22 +273,22 @@ layers:
   - ''
   - ''
   - ''
-  - DE BACKSLASH
-  - DE GRAVE
-  - DE ACUTE
-  - DE PLUS
+  - \
+  - '`'
+  - ACUTE
+  - +
   - HOME
   - ''
   - ''
   - ''
+  - )
   - ''
   - ''
   - ''
-  - ''
-  - DE SLASH
-  - DE STAR
-  - DE EQUAL
-  - DE HASH
+  - /
+  - '*'
+  - '='
+  - '#'
   - END
   - ''
   - ''
@@ -303,10 +303,10 @@ layers:
   - ''
   - ''
   - ''
-  - DE PIPE
-  - DE EXCLAMATION
-  - DE QMARK
-  - DE TILDE
+  - '|'
+  - '!'
+  - '?'
+  - '~'
   - INSERT
   - ''
   - {type: held}
@@ -319,7 +319,7 @@ layers:
   - ''
   - ''
   - ''
-  - DE AMPERSAND
+  - '&'
   - ''
   - ''
   - ''
