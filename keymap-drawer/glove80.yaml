@@ -116,7 +116,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - $$mdi:progress-download$$
   - RGB SPD
   - RGB SAD
   - RGB HUD
@@ -127,8 +127,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
-  - '&sys_reset'
+  - $$mdi:progress-download$$
+  - $$mdi:backup-restore$$
   - ''
   - ''
   - ''
@@ -145,14 +145,14 @@ layers:
   - ''
   - ''
   - ''
-  - '&sys_reset'
+  - $$mdi:backup-restore$$
   - {type: held}
   - ''
   - ''
   - ''
   - ''
-  - $$mdi:bluetooth-connect$$ test
-  - $$mdi:bluetooth-connect$$
+  - '&bt_0'
+  - '&bt_1'
   - OUT USB
   - ''
   - ''
@@ -172,7 +172,7 @@ layers:
   - ''
   - ''
   - ''
-  - Pause Break
+  - $$mdi:cog-pause$$
   - ''
   - ''
   - F11
@@ -180,11 +180,11 @@ layers:
   - ''
   - ''
   - ''
-  - KP NUM
-  - KP EQUAL
-  - KP SLASH
-  - KP MULTIPLY
-  - PRINTSCREEN
+  - $$mdi:numeric$$
+  - $$mdi:equal-box$$
+  - $$mdi:slash-forward-box$$
+  - $$mdi:multiplication-box$$
+  - $$mdi:printer-pos-cog$$
   - °
   - '"'
   - '{'
@@ -192,22 +192,22 @@ layers:
   - ''''
   - ''
   - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - SCROLLLOCK
+  - $$mdi:numeric-7-box-outline$$
+  - $$mdi:numeric-8-box-outline$$
+  - $$mdi:numeric-9-box-outline$$
+  - $$mdi:minus-box-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - ''
   - _
   - (
   - )
   - $
   - ''
-  - AL CALCULATOR
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
+  - $$mdi:calculator$$
+  - $$mdi:numeric-4-box-outline$$
+  - $$mdi:numeric-5-box-outline$$
+  - $$mdi:numeric-6-box-outline$$
+  - $$mdi:plus-box-outline$$
   - ''
   - ''
   - <
@@ -222,10 +222,10 @@ layers:
   - ''
   - ''
   - ''
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP ENTER
+  - $$mdi:numeric-1-box-outline$$
+  - $$mdi:numeric-2-box-outline$$
+  - $$mdi:numeric-3-box-outline$$
+  - $$mdi:keyboard-return$$
   - ''
   - ''
   - ''
@@ -238,10 +238,10 @@ layers:
   - ''
   - {type: held}
   - ''
-  - KP 0
-  - KP 0
+  - $$mdi:numeric-0-box-outline$$
+  - $$mdi:numeric-0-box-outline$$
   - KP DOT
-  - KP ENTER
+  - $$mdi:keyboard-return$$
   - ''
   lower_left_press:
   - ''
@@ -307,7 +307,7 @@ layers:
   - '!'
   - '?'
   - '~'
-  - INSERT
+  - Insert
   - ''
   - {type: held}
   - ''

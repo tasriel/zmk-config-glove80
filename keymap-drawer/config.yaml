@@ -2,8 +2,12 @@ parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
   raw_binding_map:
     # Bluetooth
-    "&bt_0": $$mdi:bluetooth-connect$$ test
-    "&bt_1": $$mdi:bluetooth-connect$$
+    # "&bt_0": $$mdi:bluetooth-connect$$
+    # "&bt_1": $$mdi:bluetooth-connect$$
+
+    # Reset
+    "&sys_reset": $$mdi:backup-restore$$
+    "&bootloader": $$mdi:progress-download$$
 
   zmk_keycode_map:
     # custom mappings
@@ -23,12 +27,14 @@ parse_config:
     TAB: $$mdi:keyboard-tab$$
     DEL: $$mdi:backspace-reverse-outline$$
 
-    INS: Insert
+    INSERT: Insert
     HOME: Home
     END: End
     CAPSLOCK: $$mdi:caps-lock$$
-    PSCRN: Print Scrn
-    PAUSE_BREAK: Pause Break
+    PRINTSCREEN: $$mdi:printer-pos-cog$$
+    PAUSE_BREAK: $$mdi:cog-pause$$
+    SCROLLLOCK: $$mdi:mouse-scroll-wheel$$
+    C_AL_CALCULATOR: $$mdi:calculator$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
@@ -59,10 +65,32 @@ parse_config:
     DEGREE: '°'
     ACUTE: '´'
 
+    # German
     U_UMLAUT: 'Ü'
     O_UMLAUT: 'Ö'
     A_UMLAUT: 'Ä'
     SZ: 'ß'
+
+    # Numpad
+    KP_N0: $$mdi:numeric-0-box-outline$$
+    KP_N1: $$mdi:numeric-1-box-outline$$
+    KP_N2: $$mdi:numeric-2-box-outline$$
+    KP_N3: $$mdi:numeric-3-box-outline$$
+    KP_N4: $$mdi:numeric-4-box-outline$$
+    KP_N5: $$mdi:numeric-5-box-outline$$
+    KP_N6: $$mdi:numeric-6-box-outline$$
+    KP_N7: $$mdi:numeric-7-box-outline$$
+    KP_N8: $$mdi:numeric-8-box-outline$$
+    KP_N9: $$mdi:numeric-9-box-outline$$
+
+    KP_NUM: $$mdi:numeric$$
+    KP_EQUAL: $$mdi:equal-box$$
+    KP_SLASH: $$mdi:slash-forward-box$$
+
+    KP_MULTIPLY: $$mdi:multiplication-box$$
+    KP_PLUS: $$mdi:plus-box-outline$$
+    KP_MINUS: $$mdi:minus-box-outline$$
+    KP_ENTER: $$mdi:keyboard-return$$
 
     # defaults
     AMPERSAND: '&'
