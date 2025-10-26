@@ -47,7 +47,7 @@ layers:
   - {t: L, h: AltGr}
   - O UMLAUT
   - A UMLAUT
-  - CARET
+  - ^
   - Z
   - X
   - C
@@ -61,26 +61,26 @@ layers:
   - Gui
   - N
   - M
-  - COMMA
-  - DOT
-  - MINUS
-  - PG UP
+  - ','
+  - .
+  - '-'
+  - Page ↑
   - {t: '&rgb_ug_status_macro', h: magic}
   - lower_left_press
   - ''
-  - LEFT
-  - RIGHT
+  - ←
+  - →
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: lower_left_press}
   - ''
   - ''
   - {t: ⏎, h: lower_right_press}
   - {t: ␣, h: Shift}
-  - UP
-  - DOWN
+  - ↑
+  - ↓
   - ''
   - lower_right_press
-  - PG DN
+  - Page ↓
   magic:
   - BT CLR
   - ''
@@ -172,7 +172,7 @@ layers:
   - ''
   - ''
   - ''
-  - PAUSE BREAK
+  - Pause Break
   - ''
   - ''
   - F11
@@ -186,10 +186,10 @@ layers:
   - KP MULTIPLY
   - PRINTSCREEN
   - DEGREE
-  - DOUBLE QUOTES
-  - LEFT BRACE
-  - RIGHT BRACE
-  - SINGLE QUOTE
+  - '"'
+  - '{'
+  - '}'
+  - ''''
   - ''
   - ''
   - KP 7
@@ -198,10 +198,10 @@ layers:
   - KP MINUS
   - SCROLLLOCK
   - ''
-  - UNDERSCORE
-  - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
-  - DOLLAR
+  - _
+  - (
+  - )
+  - $
   - ''
   - AL CALCULATOR
   - KP 4
@@ -210,14 +210,14 @@ layers:
   - KP PLUS
   - ''
   - ''
-  - LESS THAN
-  - LEFT BRACKET
-  - RIGHT BRACKET
-  - GREATER THAN
+  - <
+  - '['
+  - ']'
+  - '>'
   - ''
   - Vol Down
   - Vol Up
-  - Play Pause
+  - ⏯
   - ''
   - ''
   - ''
@@ -231,10 +231,10 @@ layers:
   - ''
   - ''
   - ''
-  - PERCENT
+  - '%'
   - MUTE
-  - PREV
-  - NEXT
+  - ⏮️
+  - ⏭️
   - ''
   - {type: held}
   - ''
@@ -273,11 +273,11 @@ layers:
   - ''
   - ''
   - ''
-  - BACKSLASH
-  - GRAVE
+  - \
+  - '`'
   - ACUTE
-  - PLUS
-  - HOME
+  - +
+  - Home
   - ''
   - ''
   - ''
@@ -285,11 +285,11 @@ layers:
   - ''
   - ''
   - ''
-  - SLASH
-  - STAR
-  - EQUAL
-  - HASH
-  - END
+  - /
+  - '*'
+  - '='
+  - '#'
+  - End
   - ''
   - ''
   - ''
@@ -303,10 +303,10 @@ layers:
   - ''
   - ''
   - ''
-  - PIPE
-  - EXCLAMATION
-  - QMARK
-  - TILDE
+  - '|'
+  - '!'
+  - '?'
+  - '~'
   - INSERT
   - ''
   - {type: held}
@@ -319,7 +319,7 @@ layers:
   - ''
   - ''
   - ''
-  - AMPERSAND
+  - '&'
   - ''
   - ''
   - ''
