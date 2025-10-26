@@ -23,7 +23,7 @@ layers:
   - '9'
   - '0'
   - SZ
-  - ↹
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -35,7 +35,7 @@ layers:
   - O
   - P
   - U UMLAUT
-  - Esc
+  - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: Alt}
   - {t: D, h: Ctrl}
@@ -53,34 +53,34 @@ layers:
   - C
   - V
   - B
-  - Gui
+  - $$mdi:apple-keyboard-command$$
   - CAPSLOCK
   - ''
   - ''
   - ''
-  - Gui
+  - $$mdi:apple-keyboard-command$$
   - N
   - M
   - ','
   - .
   - '-'
-  - Page ↑
+  - $$mdi:transfer-up$$
   - {t: '&rgb_ug_status_macro', h: magic}
   - lower_left_press
   - ''
-  - ←
-  - →
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: lower_left_press}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: lower_left_press}
   - ''
   - ''
-  - {t: ⏎, h: lower_right_press}
-  - {t: ␣, h: Shift}
-  - ↑
-  - ↓
+  - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   - ''
   - lower_right_press
-  - Page ↓
+  - $$mdi:transfer-down$$
   magic:
   - $$mdi:bluetooth-off$$
   - ''
@@ -185,7 +185,7 @@ layers:
   - KP SLASH
   - KP MULTIPLY
   - PRINTSCREEN
-  - DEGREE
+  - °
   - '"'
   - '{'
   - '}'

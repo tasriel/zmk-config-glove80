@@ -1,46 +1,37 @@
 parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
-
-  raw_binding_map:
-    # Bluetooth
-    "&bt BT_SEL 0": $$mdi:bluetooth-connect$$ test
-    "&bt BT_SEL 1": $$mdi:bluetooth-connect$$
-
   zmk_keycode_map:
     # custom mappings
-    C_VOL_UP: Vol Up
-    C_VOL_DN: Vol Down
-    C_AL_CALC: Calc
-    C_PP: Play Pause
 
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt
     RALT: AltGr
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
-    ESC: Esc
-    SPACE: ␣
-    BSPC: ⌫
-    RET: ⏎
-    TAB: ↹
-    DEL: ⌦
+    LGUI: $$mdi:apple-keyboard-command$$
+    RGUI: $$mdi:apple-keyboard-command$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    SPACE: $$mdi:keyboard-space$$
+    BSPC: $$mdi:backspace$$
+    RET: $$mdi:keyboard-return$$
+    ESC: $$mdi:keyboard-esc$$
+    TAB: $$mdi:keyboard-tab$$
+    DEL: $$mdi:backspace-reverse-outline$$
 
-    PG_UP: Page ↑
-    PG_DN: Page ↓
     INS: Insert
     HOME: Home
     END: End
-    CAPS: Caps Lock
+    CAPS: $$mdi:caps-lock$$
     PSCRN: Print Scrn
     PAUSE_BREAK: Pause Break
 
-    UP: ↑
-    DOWN: ↓
-    LEFT: ←
-    RIGHT: →
+    # Arrows
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    PG_UP: $$mdi:transfer-up$$
+    PG_DN: $$mdi:transfer-down$$
 
     # Sound
     C_MUTE: $$mdi:volume-off$$
@@ -55,10 +46,14 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
+    "&bt BT_SEL 0": $$mdi:bluetooth-connect$$ test
+    "&bt BT_SEL 1": $$mdi:bluetooth-connect$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRI_DN: $$mdi:brightness-7$$
+
+    DEGREE: '°'
 
     # defaults
     AMPERSAND: '&'
