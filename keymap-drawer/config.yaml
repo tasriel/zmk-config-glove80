@@ -75,7 +75,9 @@ parse_config:
     COMMA: ','
     DLLR: $
     DOLLAR: $
-    DOT: .
+    DOT:
+      tap: '.'
+      shifted: ':'
     DOUBLE_QUOTES: '"'
     DQT: '"'
     EQUAL: '='

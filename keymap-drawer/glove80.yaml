@@ -62,7 +62,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: ., s: ':'}
   - '-'
   - Page ↑
   - {t: '&rgb_ug_status_macro', h: magic}
