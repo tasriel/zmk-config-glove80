@@ -62,7 +62,7 @@ layers:
   - N
   - M
   - ','
-  - {t: ., s: ':'}
+  - .
   - '-'
   - Page ↑
   - {t: '&rgb_ug_status_macro', h: magic}
@@ -82,7 +82,7 @@ layers:
   - lower_right_press
   - Page ↓
   magic:
-  - BT CLR
+  - $$mdi:bluetooth-off$$
   - ''
   - ''
   - ''
@@ -163,8 +163,8 @@ layers:
   - ''
   - ''
   lower_right_press:
-  - BRI DN
-  - BRI UP
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
   - ''
   - ''
   - ''
@@ -215,9 +215,9 @@ layers:
   - ']'
   - '>'
   - ''
-  - Vol Down
-  - Vol Up
-  - ⏯
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:play-pause$$
   - ''
   - ''
   - ''
@@ -232,9 +232,9 @@ layers:
   - ''
   - ''
   - '%'
-  - MUTE
-  - ⏮️
-  - ⏭️
+  - $$mdi:volume-off$$
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
   - ''
   - {type: held}
   - ''
