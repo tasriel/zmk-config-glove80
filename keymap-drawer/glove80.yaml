@@ -181,9 +181,9 @@ layers:
   - ''
   - ''
   - $$mdi:numeric$$
-  - $$mdi:equal-box$$
-  - $$mdi:slash-forward-box$$
-  - $$mdi:multiplication-box$$
+  - '='
+  - /
+  - '*'
   - $$mdi:printer-pos-cog$$
   - °
   - '"'
@@ -192,10 +192,10 @@ layers:
   - ''''
   - ''
   - ''
-  - $$mdi:numeric-7-box-outline$$
-  - $$mdi:numeric-8-box-outline$$
-  - $$mdi:numeric-9-box-outline$$
-  - $$mdi:minus-box-outline$$
+  - '7'
+  - '8'
+  - '9'
+  - '-'
   - $$mdi:mouse-scroll-wheel$$
   - ''
   - _
@@ -204,10 +204,10 @@ layers:
   - $
   - ''
   - $$mdi:calculator$$
-  - $$mdi:numeric-4-box-outline$$
-  - $$mdi:numeric-5-box-outline$$
-  - $$mdi:numeric-6-box-outline$$
-  - $$mdi:plus-box-outline$$
+  - '4'
+  - '5'
+  - '6'
+  - +
   - ''
   - ''
   - <
@@ -222,9 +222,9 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:numeric-1-box-outline$$
-  - $$mdi:numeric-2-box-outline$$
-  - $$mdi:numeric-3-box-outline$$
+  - '1'
+  - '2'
+  - '3'
   - $$mdi:keyboard-return$$
   - ''
   - ''
@@ -238,9 +238,9 @@ layers:
   - ''
   - {type: held}
   - ''
-  - $$mdi:numeric-0-box-outline$$
-  - $$mdi:numeric-0-box-outline$$
-  - KP DOT
+  - '0'
+  - '0'
+  - .
   - $$mdi:keyboard-return$$
   - ''
   lower_left_press:
