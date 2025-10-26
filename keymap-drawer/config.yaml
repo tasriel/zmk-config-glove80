@@ -21,7 +21,7 @@ parse_config:
     INS: Insert
     HOME: Home
     END: End
-    CAPS: $$mdi:caps-lock$$
+    CAPSLOCK: $$mdi:caps-lock$$
     PSCRN: Print Scrn
     PAUSE_BREAK: Pause Break
 
@@ -46,14 +46,19 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
-    "&bt BT_SEL 0": $$mdi:bluetooth-connect$$ test
-    "&bt BT_SEL 1": $$mdi:bluetooth-connect$$
+    bt_0: $$mdi:bluetooth-connect$$ test
+    bt_1: $$mdi:bluetooth-connect$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRI_DN: $$mdi:brightness-7$$
 
     DEGREE: '°'
+    ACUTE: '´'
+
+    U_UMLAUT: 'Ü'
+    O_UMLAUT: 'Ö'
+    A_UMLAUT: 'Ä'
 
     # defaults
     AMPERSAND: '&'

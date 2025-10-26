@@ -34,7 +34,7 @@ layers:
   - I
   - O
   - P
-  - U UMLAUT
+  - Ü
   - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: Alt}
@@ -45,8 +45,8 @@ layers:
   - J
   - {t: K, h: Ctrl}
   - {t: L, h: AltGr}
-  - O UMLAUT
-  - A UMLAUT
+  - Ö
+  - Ä
   - ^
   - Z
   - X
@@ -54,7 +54,7 @@ layers:
   - V
   - B
   - $$mdi:apple-keyboard-command$$
-  - CAPSLOCK
+  - $$mdi:caps-lock$$
   - ''
   - ''
   - ''
@@ -275,7 +275,7 @@ layers:
   - ''
   - \
   - '`'
-  - ACUTE
+  - ´
   - +
   - Home
   - ''
