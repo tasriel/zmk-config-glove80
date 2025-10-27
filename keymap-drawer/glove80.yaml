@@ -241,7 +241,7 @@ layers:
   - '0'
   - '0'
   - .
-  - $$mdi:keyboard-return$$
+  - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - ''
   lower_left_press:
   - ''
@@ -314,7 +314,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held alternate}
   - ''
   - ''
   - ''

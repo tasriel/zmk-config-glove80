@@ -1,5 +1,6 @@
 parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
+  mark_alternate_layer_activators: true
   raw_binding_map:
     # Bluetooth
     # "&bt_0": $$mdi:bluetooth-connect$$
