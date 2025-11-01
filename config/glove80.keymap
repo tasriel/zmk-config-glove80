@@ -127,12 +127,38 @@
 
         left_brace {
             bindings = <&kp DE_LEFT_BRACE>;
-            key-positions = <36 37>;
+            key-positions = <24 25>;
+            require-prior-idle-ms = <100>;
         };
 
         right_brace {
             bindings = <&kp DE_RIGHT_BRACE>;
+            key-positions = <25 26>;
+            require-prior-idle-ms = <100>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp DE_RIGHT_PARENTHESIS>;
             key-positions = <37 38>;
+            require-prior-idle-ms = <100>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <37 36>;
+            require-prior-idle-ms = <100>;
+        };
+
+        right_bracket {
+            bindings = <&kp DE_RIGHT_BRACKET>;
+            key-positions = <49 50>;
+            require-prior-idle-ms = <100>;
+        };
+
+        left_bracket {
+            bindings = <&kp DE_LEFT_BRACKET>;
+            key-positions = <49 48>;
+            require-prior-idle-ms = <100>;
         };
     };
 
