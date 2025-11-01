@@ -215,6 +215,97 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        combo_r_top_left {
+            bindings = <&kp DE_GRAVE>;
+            key-positions = <29 30>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_mid {
+            bindings = <&kp DE_ACUTE>;
+            key-positions = <30 31>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_right {
+            bindings = <&kp DE_PLUS>;
+            key-positions = <31 32>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_outer {
+            bindings = <&kp DE_BACKSLASH>;
+            key-positions = <32 29>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_left {
+            bindings = <&kp DE_STAR>;
+            key-positions = <41 42>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_mid {
+            bindings = <&kp DE_EQUAL>;
+            key-positions = <42 43>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_right {
+            bindings = <&kp DE_HASH>;
+            key-positions = <43 44>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_outer {
+            bindings = <&kp DE_SLASH>;
+            key-positions = <44 41>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_left {
+            bindings = <&kp DE_EXCLAMATION>;
+            key-positions = <59 60>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_mid {
+            bindings = <&kp DE_QMARK>;
+            key-positions = <60 61>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_right {
+            bindings = <&kp DE_TILDE>;
+            key-positions = <61 62>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_outer {
+            bindings = <&kp DE_PIPE>;
+            key-positions = <62 59>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_bottom_left {
+            bindings = <&kp DE_AMPERSAND>;
+            key-positions = <75 76>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {

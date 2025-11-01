@@ -367,3 +367,42 @@ combos:
 - p: [67, 68]
   k: '%'
   l: [default]
+- p: [29, 30]
+  k: '`'
+  l: [default]
+- p: [30, 31]
+  k: ´
+  l: [default]
+- p: [31, 32]
+  k: +
+  l: [default]
+- p: [32, 29]
+  k: \
+  l: [default]
+- p: [41, 42]
+  k: '*'
+  l: [default]
+- p: [42, 43]
+  k: '='
+  l: [default]
+- p: [43, 44]
+  k: '#'
+  l: [default]
+- p: [44, 41]
+  k: /
+  l: [default]
+- p: [59, 60]
+  k: '!'
+  l: [default]
+- p: [60, 61]
+  k: '?'
+  l: [default]
+- p: [61, 62]
+  k: '~'
+  l: [default]
+- p: [62, 59]
+  k: '|'
+  l: [default]
+- p: [75, 76]
+  k: '&'
+  l: [default]
