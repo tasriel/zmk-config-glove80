@@ -53,12 +53,12 @@ layers:
   - C
   - V
   - B
+  - LSHIFT
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:caps-lock$$
-  - ''
-  - ''
+  - CAPS
   - ''
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - N
   - M
   - ','
@@ -71,10 +71,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - BACKSPACE
-  - LEFT SHIFT
   - {t: DELETE, h: lower_left_press}
+  - ''
+  - ''
   - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
-  - RIGHT SHIFT
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
@@ -235,8 +235,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - '0'
   - '0'
@@ -314,8 +314,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held alternate}
+  - ''
   - ''
   - ''
   - ''
