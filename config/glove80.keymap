@@ -122,6 +122,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_brace {
+            bindings = <&kp DE_LEFT_BRACE>;
+            key-positions = <36 37>;
+        };
+
+        right_brace {
+            bindings = <&kp DE_RIGHT_BRACE>;
+            key-positions = <37 38>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
