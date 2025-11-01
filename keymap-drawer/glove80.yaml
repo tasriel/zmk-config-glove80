@@ -379,6 +379,7 @@ combos:
 - p: [32, 29]
   k: \
   l: [default]
+  draw_separate: true
 - p: [41, 42]
   k: '*'
   l: [default]
@@ -391,6 +392,7 @@ combos:
 - p: [44, 41]
   k: /
   l: [default]
+  draw_separate: true
 - p: [59, 60]
   k: '!'
   l: [default]
@@ -403,6 +405,7 @@ combos:
 - p: [62, 59]
   k: '|'
   l: [default]
+  draw_separate: true
 - p: [75, 76]
   k: '&'
   l: [default]
