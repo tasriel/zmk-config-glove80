@@ -53,12 +53,12 @@ layers:
   - C
   - V
   - B
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:caps-lock$$
   - ''
-  - ''
-  - ''
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - N
   - M
   - ','
@@ -70,12 +70,12 @@ layers:
   - ''
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:backspace$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: lower_left_press}
   - ''
   - ''
   - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - ''
@@ -324,3 +324,88 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [24, 25]
+  k: '{'
+  l: [default]
+- p: [25, 26]
+  k: '}'
+  l: [default]
+- p: [36, 37]
+  k: (
+  l: [default]
+- p: [37, 38]
+  k: )
+  l: [default]
+- p: [49, 48]
+  k: '['
+  l: [default]
+- p: [49, 50]
+  k: ']'
+  l: [default]
+- p: [23, 24]
+  k: '"'
+  l: [default]
+- p: [23, 26]
+  k: ''''
+  l: [default]
+  draw_separate: true
+- p: [47, 48]
+  k: <
+  l: [default]
+- p: [47, 50]
+  k: '>'
+  l: [default]
+  draw_separate: true
+- p: [35, 36]
+  k: _
+  l: [default]
+- p: [35, 38]
+  k: $
+  l: [default]
+  draw_separate: true
+- p: [67, 68]
+  k: '%'
+  l: [default]
+- p: [29, 30]
+  k: '`'
+  l: [default]
+- p: [30, 31]
+  k: ´
+  l: [default]
+- p: [31, 32]
+  k: +
+  l: [default]
+- p: [32, 29]
+  k: \
+  l: [default]
+  draw_separate: true
+- p: [41, 42]
+  k: '*'
+  l: [default]
+- p: [42, 43]
+  k: '='
+  l: [default]
+- p: [43, 44]
+  k: '#'
+  l: [default]
+- p: [44, 41]
+  k: /
+  l: [default]
+  draw_separate: true
+- p: [59, 60]
+  k: '!'
+  l: [default]
+- p: [60, 61]
+  k: '?'
+  l: [default]
+- p: [61, 62]
+  k: '~'
+  l: [default]
+- p: [62, 59]
+  k: '|'
+  l: [default]
+  draw_separate: true
+- p: [75, 76]
+  k: '&'
+  l: [default]

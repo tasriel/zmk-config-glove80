@@ -122,17 +122,203 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_l_top_mid {
+            bindings = <&kp DE_LEFT_BRACE>;
+            key-positions = <24 25>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_top_right {
+            bindings = <&kp DE_RIGHT_BRACE>;
+            key-positions = <25 26>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_mid_mid {
+            bindings = <&kp DE_LEFT_PARENTHESIS>;
+            key-positions = <36 37>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_mid_right {
+            bindings = <&kp DE_RIGHT_PARENTHESIS>;
+            key-positions = <37 38>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_bottom_mid {
+            bindings = <&kp DE_LEFT_BRACKET>;
+            key-positions = <49 48>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_bottom_right {
+            bindings = <&kp DE_RIGHT_BRACKET>;
+            key-positions = <49 50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_top_left {
+            bindings = <&kp DE_DOUBLE_QUOTES>;
+            key-positions = <23 24>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_top_outer {
+            bindings = <&kp DE_SINGLE_QUOTE>;
+            key-positions = <23 26>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_bottom_left {
+            bindings = <&kp DE_LESS_THAN>;
+            key-positions = <47 48>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_bottom_outer {
+            bindings = <&kp DE_GREATER_THAN>;
+            key-positions = <47 50>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_mid_left {
+            bindings = <&kp DE_UNDERSCORE>;
+            key-positions = <35 36>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_mid_outer {
+            bindings = <&kp DE_DOLLAR>;
+            key-positions = <35 38>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_l_bottom_bottom_right {
+            bindings = <&kp DE_PERCENT>;
+            key-positions = <67 68>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_left {
+            bindings = <&kp DE_GRAVE>;
+            key-positions = <29 30>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_mid {
+            bindings = <&kp DE_ACUTE>;
+            key-positions = <30 31>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_right {
+            bindings = <&kp DE_PLUS>;
+            key-positions = <31 32>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_top_outer {
+            bindings = <&kp DE_BACKSLASH>;
+            key-positions = <32 29>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_left {
+            bindings = <&kp DE_STAR>;
+            key-positions = <41 42>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_mid {
+            bindings = <&kp DE_EQUAL>;
+            key-positions = <42 43>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_right {
+            bindings = <&kp DE_HASH>;
+            key-positions = <43 44>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_mid_outer {
+            bindings = <&kp DE_SLASH>;
+            key-positions = <44 41>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_left {
+            bindings = <&kp DE_EXCLAMATION>;
+            key-positions = <59 60>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_mid {
+            bindings = <&kp DE_QMARK>;
+            key-positions = <60 61>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_right {
+            bindings = <&kp DE_TILDE>;
+            key-positions = <61 62>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_outer {
+            bindings = <&kp DE_PIPE>;
+            key-positions = <62 59>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        combo_r_bottom_bottom_left {
+            bindings = <&kp DE_AMPERSAND>;
+            key-positions = <75 76>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                                                                     &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
-&none           &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                                                                  &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
-&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                                                                   &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
-&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                                                                   &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LGUI           &kp CAPSLOCK                        &none    &none  &none                                &kp RGUI            &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
-&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &hrm_l LSHFT BSPC  &kp_and_layer LOWER_LEFT_PRESS DEL  &none    &none  &kp_and_layer LOWER_RIGHT_PRESS RET  &hrm_r RSHFT SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
+&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                            &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
+&none           &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                         &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
+&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                          &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
+&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                          &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LSHFT  &kp LGUI             &kp CAPSLOCK    &none  &kp RGUI             &kp RSHFT  &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
+&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &kp BSPC   &kp_and_layer 3 DEL  &none           &none  &kp_and_layer 2 RET  &kp SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
             >;
         };
 

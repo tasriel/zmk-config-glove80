@@ -10,6 +10,14 @@ parse_config:
     "&sys_reset": $$mdi:backup-restore$$
     "&bootloader": $$mdi:progress-download$$
 
+  zmk_combos:
+    combo_l_top_outer: {draw_separate: true}
+    combo_l_mid_outer: {draw_separate: true}
+    combo_l_bottom_outer: {draw_separate: true}
+    combo_r_top_outer: {draw_separate: true}
+    combo_r_mid_outer: {draw_separate: true}
+    combo_r_bottom_outer: {draw_separate: true}
+
   zmk_keycode_map:
     # custom mappings
 
@@ -162,4 +170,5 @@ parse_config:
     UNDERSCORE: _
 
 draw_config:
+  combo_diagrams_scale: 2
   dark_mode: auto
