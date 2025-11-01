@@ -574,6 +574,7 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
 <text x="168" y="196" class="combo tap">(</text>
+<text x="168" y="185" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="239" width="28" height="26" class="combo"/>
@@ -888,6 +889,7 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
 <text x="168" y="196" class="combo tap">(</text>
+<text x="168" y="185" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="239" width="28" height="26" class="combo"/>
@@ -1205,6 +1207,7 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
 <text x="168" y="196" class="combo tap">(</text>
+<text x="168" y="185" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="239" width="28" height="26" class="combo"/>
@@ -1490,6 +1493,7 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
 <text x="168" y="196" class="combo tap">(</text>
+<text x="168" y="185" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="239" width="28" height="26" class="combo"/>

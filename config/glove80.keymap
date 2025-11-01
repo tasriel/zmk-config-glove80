@@ -83,6 +83,15 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 22 23 24 25 26 34 35 36 37 38 39 46 47 48 49 50 51 52 53 54 64 65 66 67 68 69 70 15 27 71>;
             hold-trigger-on-release;
         };
+
+        mms_combo_mid_left: mms_combo_mid_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_MID_LEFT";
+            bindings = <&kp DE_LEFT_PARENTHESIS>, <&kp DE_UNDERSCORE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -143,8 +152,8 @@
             require-prior-idle-ms = <100>;
         };
 
-        left_parenthesis {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        mms_mid_left {
+            bindings = <&mms_combo_mid_left>;
             key-positions = <37 36>;
             require-prior-idle-ms = <100>;
         };
