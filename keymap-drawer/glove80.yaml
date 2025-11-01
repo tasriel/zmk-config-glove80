@@ -341,16 +341,16 @@ combos:
   k: '"'
 - p: [23, 26]
   k: ''''
-  a: top
+  draw_separate: true
 - p: [47, 48]
   k: <
 - p: [47, 50]
   k: '>'
-  a: bottom
+  draw_separate: true
 - p: [35, 36]
   k: _
 - p: [35, 38]
   k: $
-  a: bottom
+  draw_separate: true
 - p: [67, 68]
   k: '%'

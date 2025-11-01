@@ -11,9 +11,9 @@ parse_config:
     "&bootloader": $$mdi:progress-download$$
 
   zmk_combos:
-    combo_top_outer: {align: top}
-    combo_mid_outer: {align: bottom}
-    combo_bottom_outer: {align: bottom}
+    combo_top_outer: {draw_separate: true}
+    combo_mid_outer: {draw_separate: true}
+    combo_bottom_outer: {draw_separate: true}
 
   zmk_keycode_map:
     # custom mappings
