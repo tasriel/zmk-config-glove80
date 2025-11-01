@@ -53,9 +53,9 @@ layers:
   - C
   - V
   - B
-  - LSHIFT
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - CAPS
+  - $$mdi:caps-lock$$
   - ''
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
@@ -70,8 +70,8 @@ layers:
   - ''
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - BACKSPACE
-  - {t: DELETE, h: lower_left_press}
+  - $$mdi:backspace$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: lower_left_press}
   - ''
   - ''
   - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
@@ -326,14 +326,28 @@ layers:
   - ''
 combos:
 - p: [24, 25]
-  k: {t: '{', s: '"'}
+  k: '{'
 - p: [25, 26]
-  k: {t: '}', s: ''''}
+  k: '}'
+- p: [36, 37]
+  k: (
 - p: [37, 38]
-  k: {t: ), s: $}
-- p: [37, 36]
-  k: {t: (, s: _}
-- p: [49, 50]
-  k: {t: ']', s: '>'}
+  k: )
 - p: [49, 48]
-  k: {t: '[', s: <}
+  k: '['
+- p: [49, 50]
+  k: ']'
+- p: [23, 24]
+  k: '"'
+- p: [23, 26]
+  k: ''''
+- p: [47, 48]
+  k: <
+- p: [47, 50]
+  k: '>'
+- p: [35, 36]
+  k: _
+- p: [35, 38]
+  k: $
+- p: [67, 68]
+  k: '%'
