@@ -327,30 +327,43 @@ layers:
 combos:
 - p: [24, 25]
   k: '{'
+  l: [default]
 - p: [25, 26]
   k: '}'
+  l: [default]
 - p: [36, 37]
   k: (
+  l: [default]
 - p: [37, 38]
   k: )
+  l: [default]
 - p: [49, 48]
   k: '['
+  l: [default]
 - p: [49, 50]
   k: ']'
+  l: [default]
 - p: [23, 24]
   k: '"'
+  l: [default]
 - p: [23, 26]
   k: ''''
+  l: [default]
   draw_separate: true
 - p: [47, 48]
   k: <
+  l: [default]
 - p: [47, 50]
   k: '>'
+  l: [default]
   draw_separate: true
 - p: [35, 36]
   k: _
+  l: [default]
 - p: [35, 38]
   k: $
+  l: [default]
   draw_separate: true
 - p: [67, 68]
   k: '%'
+  l: [default]

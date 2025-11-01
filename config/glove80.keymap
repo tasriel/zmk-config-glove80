@@ -129,78 +129,91 @@
             bindings = <&kp DE_LEFT_BRACE>;
             key-positions = <24 25>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_top_right {
             bindings = <&kp DE_RIGHT_BRACE>;
             key-positions = <25 26>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_mid_mid {
             bindings = <&kp DE_LEFT_PARENTHESIS>;
             key-positions = <36 37>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_mid_right {
             bindings = <&kp DE_RIGHT_PARENTHESIS>;
             key-positions = <37 38>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_bottom_mid {
             bindings = <&kp DE_LEFT_BRACKET>;
             key-positions = <49 48>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_bottom_right {
             bindings = <&kp DE_RIGHT_BRACKET>;
             key-positions = <49 50>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_top_left {
             bindings = <&kp DE_DOUBLE_QUOTES>;
             key-positions = <23 24>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_top_outer {
             bindings = <&kp DE_SINGLE_QUOTE>;
             key-positions = <23 26>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_bottom_left {
             bindings = <&kp DE_LESS_THAN>;
             key-positions = <47 48>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_bottom_outer {
             bindings = <&kp DE_GREATER_THAN>;
             key-positions = <47 50>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_mid_left {
             bindings = <&kp DE_UNDERSCORE>;
             key-positions = <35 36>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_mid_outer {
             bindings = <&kp DE_DOLLAR>;
             key-positions = <35 38>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
 
         combo_bottom_bottom_right {
             bindings = <&kp DE_PERCENT>;
             key-positions = <67 68>;
             require-prior-idle-ms = <100>;
+            layers = <0>;
         };
     };
 
