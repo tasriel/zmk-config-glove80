@@ -70,12 +70,12 @@ layers:
   - ''
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: lower_left_press}
-  - ''
-  - ''
+  - BACKSPACE
+  - LEFT SHIFT
+  - {t: DELETE, h: lower_left_press}
   - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - RIGHT SHIFT
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - ''
@@ -235,8 +235,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
-  - ''
   - {type: held}
+  - ''
   - ''
   - '0'
   - '0'
@@ -314,8 +314,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held alternate}
   - ''
+  - {type: held alternate}
   - ''
   - ''
   - ''
@@ -326,14 +326,14 @@ layers:
   - ''
 combos:
 - p: [24, 25]
-  k: '{'
+  k: {t: '{', s: '"'}
 - p: [25, 26]
-  k: '}'
+  k: {t: '}', s: ''''}
 - p: [37, 38]
-  k: )
+  k: {t: ), s: $}
 - p: [37, 36]
   k: {t: (, s: _}
 - p: [49, 50]
-  k: ']'
+  k: {t: ']', s: '>'}
 - p: [49, 48]
-  k: '['
+  k: {t: '[', s: <}

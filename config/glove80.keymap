@@ -92,6 +92,51 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        mms_combo_mid_right: mms_combo_mid_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_MID_RIGHT";
+            bindings = <&kp DE_RIGHT_PARENTHESIS>, <&kp DE_DOLLAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mms_combo_top_left: mms_combo_top_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_TOP_LEFT";
+            bindings = <&kp DE_LEFT_BRACE>, <&kp DE_DOUBLE_QUOTES>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mms_combo_top_right: mms_combo_top_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_TOP_RIGHT";
+            bindings = <&kp DE_RIGHT_BRACE>, <&kp DE_SINGLE_QUOTE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mms_combo_bottom_left: mms_combo_bottom_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_BOTTOM_LEFT";
+            bindings = <&kp DE_LEFT_BRACKET>, <&kp DE_LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mms_combo_bottom_right: mms_combo_bottom_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MMS_COMBO_BOTTOM_RIGHT";
+            bindings = <&kp DE_RIGHT_BRACKET>, <&kp DE_GREATER_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -134,20 +179,20 @@
     combos {
         compatible = "zmk,combos";
 
-        left_brace {
-            bindings = <&kp DE_LEFT_BRACE>;
+        mms_top_left {
+            bindings = <&mms_combo_top_left>;
             key-positions = <24 25>;
             require-prior-idle-ms = <100>;
         };
 
-        right_brace {
-            bindings = <&kp DE_RIGHT_BRACE>;
+        mms_top_right {
+            bindings = <&mms_combo_top_right>;
             key-positions = <25 26>;
             require-prior-idle-ms = <100>;
         };
 
-        right_parenthesis {
-            bindings = <&kp DE_RIGHT_PARENTHESIS>;
+        mms_mid_right {
+            bindings = <&mms_combo_mid_right>;
             key-positions = <37 38>;
             require-prior-idle-ms = <100>;
         };
@@ -158,14 +203,14 @@
             require-prior-idle-ms = <100>;
         };
 
-        right_bracket {
-            bindings = <&kp DE_RIGHT_BRACKET>;
+        mms_bottom_right {
+            bindings = <&mms_combo_bottom_right>;
             key-positions = <49 50>;
             require-prior-idle-ms = <100>;
         };
 
-        left_bracket {
-            bindings = <&kp DE_LEFT_BRACKET>;
+        mms_bottom_left {
+            bindings = <&mms_combo_bottom_left>;
             key-positions = <49 48>;
             require-prior-idle-ms = <100>;
         };
@@ -176,12 +221,12 @@
 
         default_layer {
             bindings = <
-&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                                                                     &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
-&none           &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                                                                  &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
-&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                                                                   &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
-&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                                                                   &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LGUI           &kp CAPSLOCK                        &none    &none  &none                                &kp RGUI            &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
-&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &hrm_l LSHFT BSPC  &kp_and_layer LOWER_LEFT_PRESS DEL  &none    &none  &kp_and_layer LOWER_RIGHT_PRESS RET  &hrm_r RSHFT SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
+&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                                               &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
+&none           &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                                            &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
+&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                                             &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
+&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                                             &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LGUI       &kp CAPSLOCK    &none                     &none                &none            &kp RGUI   &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
+&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &kp BACKSPACE  &kp LEFT_SHIFT  &kp_and_layer 3 DELETE    &kp_and_layer 2 RET  &kp RIGHT_SHIFT  &kp SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
             >;
         };
 
