@@ -151,7 +151,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - {t: '$$mdi:bluetooth-connect$$', h: h, s: '0'}
   - $$mdi:bluetooth-connect$$
   - OUT USB
   - ''

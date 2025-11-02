@@ -897,6 +897,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(314, 347) rotate(20.0)" class="key keypos-69">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-connect"/>
+<text x="0" y="24" class="key hold">h</text>
 <text x="0" y="-24" class="key shifted">0</text>
 </g>
 <g transform="translate(369, 379) rotate(40.0)" class="key keypos-70">
