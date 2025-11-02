@@ -306,6 +306,13 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        combo_l_mid_left_left {
+            bindings = <&kp DE_DEGREE>;
+            key-positions = <34 35>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -313,12 +320,12 @@
 
         default_layer {
             bindings = <
-&kp F1          &kp F2  &kp F3         &kp F4          &kp F5                                                                                                            &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
-&none           &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                                         &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
-&kp TAB         &kp Q   &kp W          &kp E           &kp R      &kp T                                                                                          &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
-&kp ESC         &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                                          &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp DE_CARET    &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LSHFT  &kp LGUI             &kp CAPSLOCK    &none  &kp RGUI             &kp RSHFT  &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
-&magic MAGIC 0  &mo 3   &none          &kp LEFT        &kp RIGHT          &kp BSPC   &kp_and_layer 3 DEL  &none           &none  &kp_and_layer 2 RET  &kp SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
+&kp F1        &kp F2  &kp F3         &kp F4          &kp F5                                                                                                 &kp F6  &kp F7          &kp F8         &kp F9           &kp F10
+&none         &kp N1  &kp N2         &kp N3          &kp N4     &kp N5                                                                              &kp N6  &kp N7  &kp N8          &kp N9         &kp N0           &kp DE_SZ
+&kp TAB       &kp Q   &kp W          &kp E           &kp R      &kp T                                                                               &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
+&kp ESC       &kp A   &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                               &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DE_CARET  &kp Z   &kp X          &kp C           &kp V      &kp B   &kp LSHFT  &kp LGUI  &kp CAPSLOCK    &none  &kp RGUI             &kp RSHFT  &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
+&magic 1 0    &none   &none          &kp LEFT        &kp RIGHT          &kp BSPC   &kp DEL   &none           &none  &kp_and_layer 2 RET  &kp SPACE          &kp UP  &kp DOWN        &none          &mo 2            &kp PG_DN
             >;
         };
 
@@ -335,23 +342,12 @@
 
         lower_right_press {
             bindings = <
-&kp C_BRI_DN   &kp C_BRI_UP          &none                    &none                     &none                                                                                                           &none       &none         &none         &none            &kp PAUSE_BREAK
-&none          &none                 &kp F11                  &kp F12                   &none                &none                                                                 &none                &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
-&kp DE_DEGREE  &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_SINGLE_QUOTE  &none                                                                 &none                &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp SCROLLLOCK
-&none          &kp DE_UNDERSCORE     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_DOLLAR        &none                                                                 &kp C_AL_CALCULATOR  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
-&none          &kp DE_LESS_THAN      &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_GREATER_THAN  &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP      &none  &none  &none  &none                &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &none
-&none          &none                 &none                    &none                     &kp DE_PERCENT              &kp C_MUTE    &kp C_PREV    &kp C_NEXT    &none  &none  &none                       &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &none
-            >;
-        };
-
-        lower_left_press {
-            bindings = <
-&none  &none  &none  &none  &none                                                            &none             &none               &none         &none         &none
-&none  &none  &none  &none  &none  &none                                              &none  &none             &none               &none         &none         &none
-&none  &none  &none  &none  &none  &none                                              &none  &kp DE_BACKSLASH  &kp DE_GRAVE        &kp DE_ACUTE  &kp DE_PLUS   &kp HOME
-&none  &none  &none  &none  &none  &none                                              &none  &kp DE_SLASH      &kp DE_STAR         &kp DE_EQUAL  &kp DE_HASH   &kp END
-&none  &none  &none  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp DE_PIPE       &kp DE_EXCLAMATION  &kp DE_QMARK  &kp DE_TILDE  &kp INSERT
-&none  &none  &none  &none  &none         &none  &none  &none    &none  &none  &none         &kp DE_AMPERSAND  &none               &none         &none         &none
+&kp C_BRI_DN   &kp C_BRI_UP          &none                    &none                     &none                                                                                                                &none       &none         &none         &none            &kp PAUSE_BREAK
+&none          &none                 &kp F11                  &kp F12                   &none                &none                                                                      &none                &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
+&kp DE_DEGREE  &kp DE_DOUBLE_QUOTES  &kp DE_LEFT_BRACE        &kp DE_RIGHT_BRACE        &kp DE_SINGLE_QUOTE  &kp INSERT                                                                 &none                &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp SCROLLLOCK
+&none          &kp DE_UNDERSCORE     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_DOLLAR        &kp HOME                                                                   &kp C_AL_CALCULATOR  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
+&none          &kp DE_LESS_THAN      &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_GREATER_THAN  &kp END     &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP      &none  &none  &none  &none                &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &none
+&none          &none                 &none                    &none                     &kp DE_PERCENT                   &kp C_MUTE    &kp C_PREV    &kp C_NEXT    &none  &none  &none                       &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &none
             >;
         };
     };

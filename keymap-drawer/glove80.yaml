@@ -66,12 +66,12 @@ layers:
   - '-'
   - $$mdi:transfer-up$$
   - {t: '&rgb_ug_status_macro', h: magic}
-  - lower_left_press
+  - ''
   - ''
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: lower_left_press}
+  - $$mdi:backspace-reverse-outline$$
   - ''
   - ''
   - {t: '$$mdi:keyboard-return$$', h: lower_right_press}
@@ -190,7 +190,7 @@ layers:
   - '{'
   - '}'
   - ''''
-  - ''
+  - Insert
   - ''
   - '7'
   - '8'
@@ -202,7 +202,7 @@ layers:
   - (
   - )
   - $
-  - ''
+  - Home
   - $$mdi:calculator$$
   - '4'
   - '5'
@@ -214,7 +214,7 @@ layers:
   - '['
   - ']'
   - '>'
-  - ''
+  - End
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:play-pause$$
@@ -242,87 +242,6 @@ layers:
   - '0'
   - .
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - ''
-  lower_left_press:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - \
-  - '`'
-  - ´
-  - +
-  - Home
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - /
-  - '*'
-  - '='
-  - '#'
-  - End
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '|'
-  - '!'
-  - '?'
-  - '~'
-  - Insert
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held alternate}
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&'
-  - ''
-  - ''
-  - ''
   - ''
 combos:
 - p: [24, 25]
@@ -408,4 +327,7 @@ combos:
   draw_separate: true
 - p: [75, 76]
   k: '&'
+  l: [default]
+- p: [34, 35]
+  k: °
   l: [default]
