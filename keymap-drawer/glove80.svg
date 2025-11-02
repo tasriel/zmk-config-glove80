@@ -87,6 +87,9 @@
 <svg id="mdi:transfer-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer-up" viewBox="0 0 24 24"><path d="M8,21V19H16V21H8M8,17V15H16V17H8M8,13V11H16V13H8M19,9H5L12,2L19,9Z" /></svg>
 </svg>
+<svg id="mdi:usb-port">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-usb-port" viewBox="0 0 24 24"><path d="M8 2C6.9 2 6 2.9 6 4V12H5V16L9 20V22H15V20L19 16V12H18V4C18 2.9 17.11 2 16 2M8 4H16V12H8M9 7V9H11V7M13 7V9H15V7Z" /></svg>
+</svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
 </svg>
@@ -908,9 +911,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(410, 427) rotate(60.0)" class="key keypos-71">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
-</text>
+<use href="#mdi:usb-port" xlink:href="#mdi:usb-port" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:usb-port"/>
 </g>
 <g transform="translate(598, 427) rotate(-60.0)" class="key keypos-72">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

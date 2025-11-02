@@ -2,11 +2,12 @@ parse_config:
   zmk_remove_keycode_prefix: ["DE_"]
   mark_alternate_layer_activators: true
   raw_binding_map:
-    # Bluetooth
+    # Connection
     "&bt_0": {"t": $$mdi:bluetooth-connect$$, "s": "0"}
     "&bt_1": {"t": $$mdi:bluetooth-connect$$, "s": "1"}
     "&bt_2": {"t": $$mdi:bluetooth-connect$$, "s": "2"}
     "&bt_3": {"t": $$mdi:bluetooth-connect$$, "s": "3"}
+    "&out OUT_USB": $$mdi:usb-port$$
 
     # Reset
     "&sys_reset": $$mdi:backup-restore$$
