@@ -3,7 +3,7 @@ parse_config:
   mark_alternate_layer_activators: true
   raw_binding_map:
     # Bluetooth
-    "&bt_0": {"t": $$mdi:bluetooth-connect$$, "s": "0"}
+    "&bt_0": {"t": $$mdi:bluetooth-connect$$, "s": "0", "h": "h", "l": "l", "r": "r", "b": "b", "lt": "lt"}
     "&bt_1": $$mdi:bluetooth-connect$$
 
     # Reset
