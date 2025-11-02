@@ -151,8 +151,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&bt_0'
-  - '&bt_1'
+  - {t: '$$mdi:bluetooth-connect$$', s: '0'}
+  - $$mdi:bluetooth-connect$$
   - OUT USB
   - ''
   - ''
