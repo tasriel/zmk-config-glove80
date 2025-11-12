@@ -9,3 +9,5 @@
 ---
 
 Using [@nickcoutsos's ZMK keymap editor](https://github.com/nickcoutsos/keymap-editor) for editing.
+
+Using [this website](https://genuine-sorbet-66e2f8.netlify.app/) for checking timings.
