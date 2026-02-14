@@ -313,7 +313,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-space$$
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
