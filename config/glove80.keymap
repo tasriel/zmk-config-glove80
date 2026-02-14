@@ -325,7 +325,7 @@
 &kp TAB       &kp Q      &kp W          &kp E           &kp R      &kp T                                                                               &kp Y   &kp U   &kp I           &kp O          &kp P            &kp DE_U_UMLAUT
 &kp ESC       &kp A      &hrm_l LALT S  &hrm_l LCTRL D  &kp F      &kp G                                                                               &kp H   &kp J   &hrm_r RCTRL K  &hrm_r RALT L  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
 &kp DE_CARET  &kp Z      &kp X          &kp C           &kp V      &kp B   &kp LSHFT  &kp LGUI  &kp CAPSLOCK    &none  &kp RGUI             &kp RSHFT  &kp N   &kp M   &kp COMMA       &kp DOT        &kp DE_MINUS     &kp PG_UP
-&magic 1 0    &kp LCTRL  &none          &kp LEFT        &kp RIGHT          &kp BSPC   &kp DEL   &none           &none  &kp_and_layer 2 RET  &kp SPACE          &kp UP  &kp DOWN        &none          &kp RCTRL        &kp PG_DN
+&magic 1 0    &kp LCTRL  &none          &kp LEFT        &kp RIGHT          &kp BSPC   &kp DEL   &to 3           &none  &kp_and_layer 2 RET  &kp SPACE          &kp UP  &kp DOWN        &none          &kp RCTRL        &kp PG_DN
             >;
         };
 
@@ -348,6 +348,17 @@
 &none          &kp DE_UNDERSCORE     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_DOLLAR        &kp HOME                                                                   &kp C_AL_CALCULATOR  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
 &none          &kp DE_LESS_THAN      &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_GREATER_THAN  &kp END     &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP      &none  &none  &none  &none                &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &none
 &none          &none                 &none                    &none                     &kp DE_PERCENT                   &kp C_MUTE    &kp C_PREV    &kp C_NEXT    &none  &none  &none                       &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &none
+            >;
+        };
+
+        gaming {
+            bindings = <
+&trans  &trans     &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TAB    &kp Q   &kp W   &kp E   &kp R                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp A   &kp S   &kp D   &kp F                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ESC    &kp Y   &kp X   &kp C   &kp V   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans          &trans  &trans  &to 0     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
