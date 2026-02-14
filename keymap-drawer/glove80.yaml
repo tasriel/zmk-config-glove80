@@ -291,7 +291,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-esc$$
+  - Ctrl
   - Y
   - X
   - C
